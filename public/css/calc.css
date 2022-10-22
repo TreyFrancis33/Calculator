@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, red, blue);
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (min-width: 701px) {
+  body .calc-container {
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 10%;
+    bottom: 10%;
+    background: #262729;
+    border-radius: 10px;
+  }
+  body .calc-container .operation-container {
+    height: 20%;
+    width: 100%;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .calc-container .btn-container {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(4, calc(25% - 1px));
+    grid-template-rows: repeat(5, calc(20% - 1px));
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background: #262729;
+  }
+  body .calc-container .btn-container button {
+    background: #5f6266;
+    border: 1px solid #262729;
+    border-radius: 10px;
+    opacity: 0.9;
+    color: white;
+    font-size: larger;
+  }
+  body .calc-container .btn-container button:hover {
+    opacity: 1;
+  }
+  body .calc-container .btn-container button:active {
+    opacity: 0.9;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  body .calc-container {
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 20%;
+    bottom: 20%;
+    background: #262729;
+    border-radius: 10px;
+  }
+  body .calc-container .operation-container {
+    height: 20%;
+    width: 100%;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .calc-container .btn-container {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(4, calc(25% - 1px));
+    grid-template-rows: repeat(5, calc(20% - 1px));
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background: #262729;
+  }
+  body .calc-container .btn-container button {
+    background: #5f6266;
+    border: 1px solid #262729;
+    border-radius: 10px;
+    opacity: 0.9;
+    color: white;
+    font-size: larger;
+  }
+  body .calc-container .btn-container button:hover {
+    opacity: 1;
+  }
+  body .calc-container .btn-container button:active {
+    opacity: 0.9;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .calc-container {
+    margin: auto;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+    background: #262729;
+    border-radius: 10px;
+  }
+  body .calc-container .operation-container {
+    height: 20%;
+    width: 100%;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .calc-container .btn-container {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(4, calc(25% - 1px));
+    grid-template-rows: repeat(5, calc(20% - 1px));
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background: #262729;
+  }
+  body .calc-container .btn-container button {
+    background: #5f6266;
+    border: 1px solid #262729;
+    border-radius: 10px;
+    opacity: 0.9;
+    color: white;
+    font-size: larger;
+  }
+  body .calc-container .btn-container button:hover {
+    opacity: 1;
+  }
+  body .calc-container .btn-container button:active {
+    opacity: 0.9;
+  }
+}
